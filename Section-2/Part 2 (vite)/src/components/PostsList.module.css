@@ -1,0 +1,14 @@
+.post {
+  padding: 20px;
+  background-color: #a86363;
+  border: 1px solid #f354e6;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin: 16px 0;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.post:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
